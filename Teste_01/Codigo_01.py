@@ -1,13 +1,13 @@
-import requests
-from bs4 import BeautifulSoup
-import re
-import time
+import requests # Extrai todo o texto puro da página
+from bs4 import BeautifulSoup # Faz o parser (leitura estruturada) do HTML
+import re # Usado para expressões regulares, encontrar padrões no texto
+import time # Usado para pausar o código entre os ciclos de monitoramento
 
 def extrair_numeros(url):
     try:
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        texto = soup.get_text()
+        response = requests.get(url) # Acessa a URL fornecida
+        soup = BeautifulSoup(response.text, 'html.parser') # Lê o conteúdo HTML da página
+        texto = soup.get_text() # Extrai todo o texto puro da página
 
         # Encontra todos os números com vírgula, ponto, porcentagem, moeda, etc.
         numeros = re.findall(r'[\$€R\$%]?\s?(\d{1,3}(?:[\.,]\d{3})*[\.,]?\d*)', texto)
@@ -17,7 +17,7 @@ def extrair_numeros(url):
         return []
 
 def monitorar_variacoes(url, intervalo=60):
-    valores_anteriores = set()
+    valores_anteriores = set() # Armazena os valores numéricos anteriores, sem repetições
     
     while True:
         numeros_atuais = extrair_numeros(url)
@@ -25,7 +25,7 @@ def monitorar_variacoes(url, intervalo=60):
         
         if novos_valores:
             print(f"\n🔔 Novos valores detectados: {', '.join(novos_valores)}")
-            valores_anteriores.update(novos_valores)
+            valores_anteriores.update(novos_valores)  # Atualiza o conjunto de valores monitorados
         else:
             print(f"Nenhuma alteração detectada... Total monitorado: {len(valores_anteriores)}")
         
