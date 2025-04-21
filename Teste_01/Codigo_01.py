@@ -30,7 +30,9 @@ def monitorar_variacoes(url, intervalo=60):
             print(f"Nenhuma alteração detectada... Total monitorado: {len(valores_anteriores)}")
         
         time.sleep(intervalo)
+        
+        # Qualquer url especifica, que tenham valores que alterem de acordo com tempo
+url = "https://economia.uol.com.br/cotacoes/bolsas/"  
 
-url = "https://economia.uol.com.br/cotacoes/bolsas/"  # ou qualquer outra
-
+# Monitora a variação dos valores a cada 1 minutos
 monitorar_variacoes(url, intervalo=60)
