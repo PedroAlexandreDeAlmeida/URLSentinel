@@ -32,7 +32,13 @@ def monitorar_variacoes(url, intervalo=60):
         time.sleep(intervalo)
         
         # Qualquer url especifica, que tenham valores que alterem de acordo com tempo
-url = "https://economia.uol.com.br/cotacoes/bolsas/"  
+url = "https://wise.com/br/currency-converter/dolar-hoje"  
 
 # Monitora a variação dos valores a cada 1 minutos
 monitorar_variacoes(url, intervalo=60)
+
+#1º Requisições para o usário de URL e valor a serem monitorados;
+#2º Identificar (strings) dos valores lidos: dólar, clima, etc;
+#3º Login do usuário;
+#4º Como fazer o código identiticar e ler apenas o valor inserido pelo usuário;
+#5º Docstrings para documentação
