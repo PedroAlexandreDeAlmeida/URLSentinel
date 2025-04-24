@@ -3,6 +3,12 @@ from bs4 import BeautifulSoup # Faz o parser (leitura estruturada) do HTML
 import re # Usado para expressões regulares, encontrar padrões no texto
 import time # Usado para pausar o código entre os ciclos de monitoramento
 
+
+def saudacao_usuario():
+    nome = input("Digite seu nome: ").strip()
+    print(f"\nOlá, {nome}! Vamos começar o monitoramento de valores.\n")
+    return nome
+    
 def extrair_numeros(url):
     try:
         response = requests.get(url) # Acessa a URL fornecida
@@ -32,6 +38,7 @@ def monitorar_variacoes(url, intervalo=60):
         time.sleep(intervalo)
         
         # Qualquer url especifica, que tenham valores que alterem de acordo com tempo
+usuario = saudacao_usuario()
 url = input("Digite a URL para monitoramento de valores: ").strip()
 
 # Monitora a variação dos valores a cada 1 minutos
