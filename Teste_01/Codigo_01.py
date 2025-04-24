@@ -4,7 +4,7 @@ import re # Usado para expressões regulares, encontrar padrões no texto
 import time # Usado para pausar o código entre os ciclos de monitoramento
 
 
-def saudacao_usuario():
+def saudacao_usuario(): # Procedimento que pede o nome do usuario.
     nome = input("Digite seu nome: ").strip()
     print(f"\nOlá, {nome}! Vamos começar o monitoramento de valores.\n")
     return nome
@@ -37,8 +37,9 @@ def monitorar_variacoes(url, intervalo=60):
         
         time.sleep(intervalo)
         
-        # Qualquer url especifica, que tenham valores que alterem de acordo com tempo
-usuario = saudacao_usuario()
+        # Chama o procedimento
+usuario = saudacao_usuario() 
+  # Qualquer url especifica, que tenham valores que alterem de acordo com tempo
 url = input("Digite a URL para monitoramento de valores: ").strip()
 
 # Monitora a variação dos valores a cada 1 minutos
