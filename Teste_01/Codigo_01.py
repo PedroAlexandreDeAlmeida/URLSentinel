@@ -32,7 +32,7 @@ def monitorar_variacoes(url, intervalo=60):
         time.sleep(intervalo)
         
         # Qualquer url especifica, que tenham valores que alterem de acordo com tempo
-url = "https://wise.com/br/currency-converter/dolar-hoje"  
+url = input("Digite a URL para monitoramento de valores: ").strip()
 
 # Monitora a variação dos valores a cada 1 minutos
 monitorar_variacoes(url, intervalo=60)
