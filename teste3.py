@@ -125,8 +125,23 @@ def monitorar_variacoes(url, termos_busca, intervalo=30):
 # Solicita informações do usuário
 usuario = saudacao_usuario()
 
-# Pede a URL de monitoramento
-url = input("Digite a URL para monitoramento de valores: ").strip()
+# Laço para garantir uma URL válida
+while True:
+    url = input("Digite a URL para monitoramento de valores: ").strip()
+    
+    if not url.lower().startswith("http") or "null" in url.lower():
+        print("❌ URL inválida. Tente novamente.\n")
+        continue
+
+    # Testa se a URL é acessível
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        break  # URL válida, pode sair do loop
+    except Exception as e:
+        print(f"❌ Erro ao acessar a URL: {e}\n")
+        continue
 
 # Coleta os termos a serem monitorados
 termos_input = input("Digite os termos para monitorar (separados por vírgula): ").strip()
@@ -139,4 +154,3 @@ registrar_log(f"Usuário '{usuario}' iniciou monitoramento da URL: {url} com ter
 
 # Inicia o monitoramento
 monitorar_variacoes(url, termos_busca)
-
