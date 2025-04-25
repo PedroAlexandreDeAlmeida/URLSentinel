@@ -1,0 +1,56 @@
+========================================
+          ANÁLISE DE COMPLEXIDADE
+========================================
+
+1. **saudacao_usuario()**
+   - **Complexidade**: O(1)
+   - **Justificativa**: 
+     Realiza operações simples de entrada e saída.
+
+----------------------------------------
+
+2. **parsear_numero(valor_str)**
+   - **Complexidade**: O(n)
+   - **Justificativa**: 
+     Realiza operações de substituição de string e conversão para float, 
+     onde n é o comprimento da string.
+
+----------------------------------------
+
+3. **registrar_log(mensagem)**
+   - **Complexidade**: O(1)
+   - **Justificativa**: 
+     Escreve uma mensagem em um arquivo, independentemente do tamanho da entrada.
+
+----------------------------------------
+
+4. **extrair_numeros(url, termos_busca)**
+   - **Complexidade**: O(k * n)
+   - **Justificativa**: 
+     - Realiza uma requisição HTTP (O(1)).
+     - Usa BeautifulSoup para extrair texto, com complexidade O(n), 
+       onde n é o tamanho do conteúdo HTML.
+     - A função `re.findall` captura todos os números, também O(n).
+     - Para cada termo em `termos_busca` (k termos), compila uma expressão 
+       regular e busca no texto, resultando em O(k * n).
+   - **Complexidade Total**: O(n + k * n) = O(k * n).
+
+----------------------------------------
+
+5. **monitorar_variacoes(url, termos_busca, intervalo=30)**
+   - **Complexidade**: O(k * n) por iteração
+   - **Justificativa**: 
+     Entra em um loop infinito, chamando `extrair_numeros` a cada iteração, 
+     que tem complexidade O(k * n). O tempo de espera (`time.sleep(intervalo)`) 
+     não afeta a complexidade.
+
+========================================
+               CONCLUSÃO
+========================================
+
+- **Complexidade Total do Código**: O(k * n) por iteração do loop em `monitorar_variacoes`.
+  - Onde:
+    - `k` é o número de termos de busca.
+    - `n` é o tamanho do conteúdo da página HTML analisada.
+
+========================================
