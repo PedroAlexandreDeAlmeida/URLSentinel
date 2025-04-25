@@ -52,7 +52,7 @@ def monitorar_variacoes(url, termos_busca, intervalo=60):
                     valores_anteriores[termo] = resultados_atuais[termo]
         
         if not resultados_atuais:
-            print("Nenhuma alteração detectada nos termos monitorados.")
+            print("Entrada invalida, tente novamente.")
         
         time.sleep(intervalo)
 
