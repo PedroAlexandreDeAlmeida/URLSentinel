@@ -1,0 +1,70 @@
+[2025-04-24 20:41:57] Usuário 'joao' iniciou monitoramento da URL: https://www.infomoney.com.br/cotacoes/b3/indice/ibovespa/ com termos: Ibovespa
+[2025-04-24 20:41:58] 📌 Alteração no valor de 'Ibovespa':  135,  2025, 24,  2, 23
+[2025-04-24 20:52:13] Usuário 'maluco' iniciou monitoramento da URL: https://economia.uol.com.br com termos: Dóloar Comercial
+[2025-04-24 20:52:13] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 20:52:44] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 20:53:14] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 20:58:49] Usuário 'caio' iniciou monitoramento da URL: https://economia.uol.com.br/cotacoes/cambio/ com termos: -0, 47 %
+[2025-04-24 20:58:49] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 20:59:19] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 21:00:12] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 21:00:59] Usuário 'caio' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: 93, 984.58
+[2025-04-24 21:01:00] 📌 Alteração no valor de '93': 907.77, 015527, $152.410.98, 3,607,936.74, 870.07, 895.42
+[2025-04-24 21:01:30] 📌 Alteração no valor de '93': 907.77, 015527, 3,607,936.74, 870.07, 895.42
+[2025-04-24 21:02:30] 📌 Alteração no valor de '93': 986.87, 040912, 953.64, 907.77
+[2025-04-24 21:03:49] Usuário 'ca' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: $93, 956, 36
+[2025-04-24 21:03:49] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 21:04:19] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 21:13:59] Usuário 'cando' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/
+[2025-04-24 21:17:32] Usuário 'can' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ para o termo: 93,623.55
+[2025-04-24 21:17:33] Nenhum número encontrado.
+[2025-04-24 21:18:03] Nenhum número encontrado.
+[2025-04-24 21:18:34] Nenhum número encontrado.
+[2025-04-24 21:19:04] Nenhum número encontrado.
+[2025-04-24 21:19:34] Nenhum número encontrado.
+[2025-04-24 21:20:04] Nenhum número encontrado.
+[2025-04-24 21:20:35] Nenhum número encontrado.
+[2025-04-24 21:21:05] Nenhum número encontrado.
+[2025-04-24 21:21:35] Nenhum número encontrado.
+[2025-04-24 21:22:05] Nenhum número encontrado.
+[2025-04-24 21:22:36] Nenhum número encontrado.
+[2025-04-24 21:23:06] Nenhum número encontrado.
+[2025-04-24 21:23:36] Nenhum número encontrado.
+[2025-04-24 21:24:06] Nenhum número encontrado.
+[2025-04-24 21:24:37] Nenhum número encontrado.
+[2025-04-24 21:25:07] Nenhum número encontrado.
+[2025-04-24 21:25:37] Nenhum número encontrado.
+[2025-04-24 21:27:38] Usuário 'cano' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: $93, 710
+[2025-04-24 21:27:38] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 21:28:16] Usuário 'cano' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: 93, 687
+[2025-04-24 21:28:16] 📌 Alteração no valor de '93': 698.98, 663.66, 713.13
+[2025-04-24 21:29:17] 📌 Alteração no valor de '93': 676.84, 494.29, 917.66, 5,287,590.01, 651.39, 713.13
+[2025-04-24 21:29:47] 📌 Alteração no valor de '93': 676.10, 780.85, 640.04, 698.99
+[2025-04-24 21:46:18] Usuário 'cano' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: 93, 925.29
+[2025-04-24 21:46:19] 📌 Alteração no valor de '93': 916.45, 002989, $3.3414, 883.53, 889.33
+[2025-04-24 21:47:19] 📌 Alteração no valor de '93': 919.72,  14,, 058761, 03, 886.80, 916.46
+[2025-04-24 21:47:50] 📌 Alteração no valor de '93': 860.03, 091068, 0.19, 825.55, 932.17
+[2025-04-24 22:02:47] Usuário 'po' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: 0.63%
+[2025-04-24 22:02:48] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:03:38] Usuário 'das' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: 0.64
+[2025-04-24 22:03:38] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:04:08] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:04:38] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:05:09] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:05:39] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:06:09] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 22:07:16] Usuário 'tra' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: Bitcoin
+[2025-04-24 22:07:17] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030215, $93,970.25,  0.66
+[2025-04-24 22:07:47] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030215, $93,984.31,  0.66
+[2025-04-24 22:09:48] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030215, $93,920.57,  0.52
+[2025-04-24 22:12:19] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.0302115, $93,920.57,  0.52
+[2025-04-24 22:52:02] Usuário 'da' iniciou monitoramento da URL: https://coinmarketcap.com/currencies/bitcoin/ com termos: Bitcoin, $
+[2025-04-24 22:52:02] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.0301215, $93,808.47,  0.44
+[2025-04-24 22:52:33] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030115, $93,808.47,  0.44
+[2025-04-24 22:53:03] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030115, $93,805.76,  0.36
+[2025-04-24 22:54:03] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030115, $93,760.11,  0.34
+[2025-04-24 22:56:04] 📌 Alteração no valor de 'Bitcoin': 15, $1.86, $0,  22,, r 2021,  2010, $0.0008, $64,863.10,  50,  210,000, r 2021,  6.25, 256,  0.00000001,  1,  2020, r 2020, $2.5, r 2021,  2021,  1,173,  40, $0.030115, $93,742.73,  0.26
+[2025-04-24 23:02:44] Usuário 'kain' iniciou monitoramento da URL: https://economia.uol.com.br/cotacoes/cambio/ com termos: Dolar Comercial, variação, venda
+[2025-04-24 23:02:45] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 23:03:15] Nenhuma alteração detectada nos termos monitorados.
+[2025-04-24 23:03:45] Nenhuma alteração detectada nos termos monitorados.
